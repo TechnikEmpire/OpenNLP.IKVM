@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Com.TechnikEmpire.ApacheOpenNLP</id>
+    <version>1.7.0</version>
+    <title>Apache OpenNLP</title>
+    <authors>TechnikEmpire</authors>
+    <owners>TechnikEmpire</owners>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Apache OpenNLP for .NET via IKVM.</description>
+    <releaseNotes>Build based on Apache OpenNLP release 1.7.0.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>NLP OpenNLP IKVM</tags>
+	<dependencies>
+		<dependency id="IKVM" version="8.1.5717" />
+    </dependencies>	
+  </metadata>  
+  <files>
+	<file src="Lib\OpenNLP.IKVM.dll" target="lib\OpenNLP.IKVM.dll"/>
+  </files>
+</package>
