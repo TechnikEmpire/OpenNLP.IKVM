@@ -20,7 +20,7 @@
 set IKVMC_BINARY=ikvmc
 
 :: Just the version number. Example: 1.7.0
-set APACHE_OPENNLP_VERSION=1.7.0
+set APACHE_OPENNLP_VERSION=1.7.2
 
 :: Checking to make sure that the required variables have been set, if 
 :: not, jump to the end and warn the user that the script requires minor 
